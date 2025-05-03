@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Advanced scientific calculator with trigonometric, logarithmic, and algebraic functions. Perfect for students, engineers, and scientists.">
+    <meta name="keywords" content="scientific calculator, online calculator, math tool, engineering calculator, free calculator">
+    <meta name="author" content="SciCalc Pro">
+    <meta name="robots" content="index, follow">
+    <title>SciCalc Pro | Advanced Scientific Calculator</title>
+    <link rel="canonical" href="https://www.yourdomain.com/scientific-calculator" />
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="SciCalc Pro | Advanced Scientific Calculator">
+    <meta property="og:description" content="Free online scientific calculator with advanced functions for students and professionals.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.yourdomain.com/scientific-calculator">
+    <meta property="og:image" content="https://www.yourdomain.com/images/calculator-preview.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Source+Code+Pro:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-square-root-alt"></i>
+                <h1>SciCalc Pro</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Top Ad Banner -->
+    <div class="ad-banner top-banner">
+        <!-- AdSense Code -->
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-YOUR_PUBLISHER_ID"
+            crossorigin="anonymous"></script>
+        <!-- SciCalc_Top_Banner -->
+        <ins class="adsbygoogle"
+            style="display:block"
+            data-ad-client="ca-pub-YOUR_PUBLISHER_ID"
+            data-ad-slot="YOUR_AD_SLOT_ID"
+            data-ad-format="auto"
+            data-full-width-responsive="true"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <div class="calculator-container">
+                <div class="calculator-display">
+                    <div class="history" id="history"></div>
+                    <div class="current-input" id="current-input">0</div>
+                </div>
+                <div class="calculator-buttons">
+                    <!-- Scientific Functions Row -->
+                    <button class="sci-btn" data-action="sin">sin</button>
+                    <button class="sci-btn" data-action="cos">cos</button>
+                    <button class="sci-btn" data-action="tan">tan</button>
+                    <button class="sci-btn" data-action="log">log</button>
+                    <button class="sci-btn" data-action="ln">ln</button>
+                    
+                    <!-- Second Row -->
+                    <button class="sci-btn" data-action="sqrt">√</button>
+                    <button class="sci-btn" data-action="pow">x^y</button>
+                    <button class="sci-btn" data-action="fact">x!</button>
+                    <button class="sci-btn" data-action="pi">π</button>
+                    <button class="sci-btn" data-action="e">e</button>
+                    
+                    <!-- Standard Calculator Buttons -->
+                    <button class="clear" data-action="clear">AC</button>
+                    <button data-action="backspace"><i class="fas fa-backspace"></i></button>
+                    <button class="operator" data-action="%">%</button>
+                    <button class="operator" data-action="/">÷</button>
+                    
+                    <button data-action="7">7</button>
+                    <button data-action="8">8</button>
+                    <button data-action="9">9</button>
+                    <button class="operator" data-action="*">×</button>
+                    
+                    <button data-action="4">4</button>
+                    <button data-action="5">5</button>
+                    <button data-action="6">6</button>
+                    <button class="operator" data-action="-">-</button>
+                    
+                    <button data-action="1">1</button>
+                    <button data-action="2">2</button>
+                    <button data-action="3">3</button>
+                    <button class="operator" data-action="+">+</button>
+                    
+                    <button data-action="+/-">±</button>
+                    <button data-action="0">0</button>
+                    <button data-action=".">.</button>
+                    <button class="equals" data-action="=">=</button>
+                </div>
+            </div>
+            
+            <!-- Features Section -->
+            <section id="features" class="features">
+                <h2>Advanced Scientific Functions</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <i class="fas fa-superscript"></i>
+                        <h3>Trigonometry</h3>
+                        <p>sin, cos, tan with inverse functions</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-function"></i>
+                        <h3>Logarithms</h3>
+                        <p>Natural log and base-10 logarithm</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-square-root-variable"></i>
+                        <h3>Roots & Powers</h3>
+                        <p>Square roots and exponentiation</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-infinity"></i>
+                        <h3>Constants</h3>
+                        <p>π, e, and other mathematical constants</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Bottom Ad Banner -->
+    <div class="ad-banner bottom-banner">
+        <!-- AdSense Code -->
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-YOUR_PUBLISHER_ID"
+            crossorigin="anonymous"></script>
+        <!-- SciCalc_Bottom_Banner -->
+        <ins class="adsbygoogle"
+            style="display:block"
+            data-ad-client="ca-pub-YOUR_PUBLISHER_ID"
+            data-ad-slot="YOUR_AD_SLOT_ID"
+            data-ad-format="auto"
+            data-full-width-responsive="true"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>SciCalc Pro</h3>
+                    <p>The most advanced free online scientific calculator for students and professionals.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; <span id="current-year"></span> SciCalc Pro. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "SciCalc Pro - Advanced Scientific Calculator",
+        "url": "https://www.yourdomain.com/scientific-calculator",
+        "description": "Free online scientific calculator with trigonometric, logarithmic, and algebraic functions.",
+        "applicationCategory": "CalculatorApplication",
+        "operatingSystem": "Web Browser",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        },
+        "creator": {
+            "@type": "Organization",
+            "name": "SciCalc Pro"
+        }
+    }
+    </script>
+</body>
+</html>
